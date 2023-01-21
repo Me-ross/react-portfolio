@@ -5,7 +5,8 @@ function Header() {
   return (
     <div>    
       <h1>Niloufar S.</h1>
-      <h2>Full Stack Web Developer</h2>
+      <h3>Full Stack Web Developer</h3>
+      <p>Los Angeles, CA</p>
     </div>
   );
 }
