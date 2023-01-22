@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Resume from './pages/Resume';
 import About from './pages/About';
-import Portfolio from './pages/Portfolio/Projects';
+import Portfolio from './pages/Projects/Projects';
 import Contact from './pages/Contact';
 
 // Import list of projects fron Projectlist.js
-// import projectList from './pages/Portfolio/ProjectList';
+import projectList from './pages/Projects/ProjectList'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -17,8 +17,7 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio projectList />;
-      // return <Portfolio projectList={projects} />;
+      return <Portfolio projectList={projectList} />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;

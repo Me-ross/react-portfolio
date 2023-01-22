@@ -1,4 +1,4 @@
-import React from 'react';
+
 import quicklyRecipe from './Images/Quickly-Recipes.jpg';
 import ceecees from './Images/CeeceesSalon.jpg';
 import socialNetwork from './Images/SocialNetwork.jpg'
