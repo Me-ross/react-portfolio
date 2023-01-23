@@ -1,15 +1,16 @@
 import React from 'react';
+import './CSS/projects.css'
 
 export default function TechUsed ({tech})
 {
 console.log (tech);
 return (
-<div class="row">
+<div className='container'>Technology Used:
 
-<ul className='list-group'>Technology Used:
-<div class="col-sm-6">
+<ul className='row'>
+<div className="tech-list">
     {tech.map((tech, i) => 
-        <li className='list-group-item' key={i}> {tech}</li>
+        <li className='col' key={i}> {tech}</li>
     )}
     </div>
 </ul>

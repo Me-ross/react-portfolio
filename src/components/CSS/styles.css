@@ -1,0 +1,21 @@
+:root {
+    --Orange: #ff6600;
+    --Yellow: #f7cd46;
+    --Green: #99982f;
+    --Bkgrnd: #f7edda;
+}
+
+body {
+    background-color: #f7edda;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+.theme-colors {
+  background-color: #f7edda;
+  color: #ff6600;
+}

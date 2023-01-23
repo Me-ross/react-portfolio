@@ -7,7 +7,7 @@ const projectList= [
   {
     id: 1,
     name: "Quickly Recipe & Drink Finder",
-    imgPath: {quicklyRecipe},
+    imgPath: quicklyRecipe,
     alt: "quickly recipe website",
     description: "Find recipes based on the ingredients you have on hand paired with the perfect drink",
     techUsed: ["JavaScript", "CSS", "Bootstrap", "server-side API", "localStorage", ],
@@ -17,7 +17,7 @@ const projectList= [
   {
     id: 2,
     name: "CeeCee's Salon",
-    imgPath: {ceecees},
+    imgPath: ceecees,
     alt: "Ceecee hair salon website",
     description:     "HairSalon offering various styling services. User account authenthication, booking services, admin priviledges.",
     techUsed: ["Node", "Express", "SQL", "Sequelize", "bcrypt", "DatePicker", "JavaScript", "CSS", "Bootstrap" ],
@@ -27,7 +27,7 @@ const projectList= [
   {
     id: 3,
     name: "Social Network API",
-    imgPath: {socialNetwork},
+    imgPath: socialNetwork,
     alt: "Social Network application",
     description: "Social Network API where users can share thoughts, create friends, and react to friends thoughts.",
     techUsed: ["Node", "Express", "Mongoose", "NoSQL", "JavaScript" ],

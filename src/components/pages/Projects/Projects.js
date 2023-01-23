@@ -9,7 +9,7 @@ export default function Projects ( { projectList }){
       <div key={project.id}>
         <div className="card text-center m-2">
           <img
-          className="card-img-top"
+          className="card-img-top "
           src={project.imgPath}
           alt={project.alt}>
           </img>

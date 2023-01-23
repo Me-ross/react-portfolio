@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='ContactForm'>
+    <div className='ContactForm m-3'>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
@@ -115,7 +115,7 @@ const Contact = () => {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-                <button className='submit-btn' type='submit'>
+                <button className='submit-btn mt-2' type='submit'>
                   Submit
                 </button>
               </form>
