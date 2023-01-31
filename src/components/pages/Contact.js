@@ -39,6 +39,11 @@ const Contact = () => {
   };
 
   return (
+    <div>
+      <div className='container m-3'>
+        <p> Call: (415) 123-5555</p>
+        <a href="mailto:Niloufar.S@gmail.com" style={{ textDecoration:'none', color:"#ff6600"}}>Email: Niloufar.S@gmail.com</a>
+      </div>
     <div className='ContactForm m-3'>
       <div className='container'>
         <div className='row'>
@@ -123,6 +128,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const projectList= [
     imgPath: quicklyRecipe,
     alt: "quickly recipe website",
     description: "Find recipes based on the ingredients you have on hand paired with the perfect drink",
-    techUsed: ["JavaScript", "CSS", "Bootstrap", "server-side API", "localStorage", ],
+    techUsed: ["JavaScript", "CSS", "Bootstrap", "Server-Side API", "LocalStorage", ],
     deployedAt:"https://arama89.github.io/Group-Project/",
     githubLink:"https://github.com/AramA89/Group-Project"
   },

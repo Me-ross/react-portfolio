@@ -5,17 +5,46 @@
     --Bkgrnd: #f7edda;
 }
 
-body {
-    background-color: #f7edda;
-}
-
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly
-}
-
 .theme-colors {
-  background-color: #f7edda;
+  /* background-color: #f7edda; */
   color: #ff6600;
+}
+/* .navLink {
+  --bs-nav-link-color: #ff6600;
+} */
+
+/* set style for underline links in navigation */
+.navli {
+  margin: 10px;
+  display: inline;
+  list-style-type: none;
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #ff6600;
+}
+
+nav ul {
+  display: flex;
+  text-align: right;
+  padding: 10px;
+  border-color: var(--Orange);
+}
+
+nav li {
+  border-color: var(--Bkgrnd);
+}
+
+a {
+  text-decoration: none;
+  color: var(--Bkgrnd);
+}
+
+/* Hovered navigation changes color of link and background */
+nav a:hover {
+  color: var(--Green);
+}
+
+nav li:hover {
+  background-color: var(--Bkgrnd);
+  border-color: var(--Bkgrnd);
 }

@@ -4,10 +4,12 @@ import './CSS/styles.css'
 
 function Header() {
   return (
-    <div className='card text-center theme-colors'>    
-      <h1>Niloufar S.</h1>
-      <h3>Full Stack Web Developer</h3>
-      <p>Los Angeles, CA</p>
+    <div className='text-center theme-colors m-3' 
+    style={{
+      height: '20px'
+      }}
+    >    
+      <h3>Niloufar S. - Full Stack Web Developer</h3>
     </div>
   );
 }

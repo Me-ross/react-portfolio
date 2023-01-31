@@ -1,6 +1,7 @@
 import React from 'react';
 import TechUsed from './TechUsed'
 
+import './CSS/projects.css'
 
 export default function Projects ( { projectList }){
   return (
@@ -19,8 +20,8 @@ export default function Projects ( { projectList }){
             <div>
               <TechUsed tech={project.techUsed}/>
             </div>
-            <a href={project.githubLink} className="btn btn-primary m-2">GitHub</a>
-            <a href={project.deployedAt} className="btn btn-primary">Demo</a>
+            <a href={project.githubLink} className="btn btnorange m-2">GitHub</a>
+            <a href={project.deployedAt} className="btn btn-orange">Demo</a>
           </div>
         </div>
       </div>

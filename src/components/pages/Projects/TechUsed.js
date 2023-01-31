@@ -5,10 +5,11 @@ export default function TechUsed ({tech})
 {
 console.log (tech);
 return (
-<div className='container'>Technology Used:
+<div className='container'>
+    <h5>Technology Used:</h5>
 
-<ul className='row'>
-<div className="tech-list">
+<ul className='' style= {{ listStyle: 'none'}}>
+<div className="row">
     {tech.map((tech, i) => 
         <li className='col' key={i}> {tech}</li>
     )}
